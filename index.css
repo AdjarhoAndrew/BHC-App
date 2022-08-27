@@ -1,5 +1,12 @@
+.body{display: flex;
+align-items: center;
+align-content: center;
+}
+.girl{ height:100vh;}
+
 .imggirl {
   width: 100%;
+  
 }
 
 .logoimg {
@@ -11,7 +18,8 @@
 }
 .header1 {
   position: relative;
-  bottom: 17em;
+  bottom: 0em;
+  top: 20em;
   margin-left: 10%;
 }
 .h1 {
@@ -26,7 +34,8 @@
 
 .navbar {
   position: relative;
-  bottom: 21em;
+  bottom: 0em;
+  top:17em;
   left: 30%;
   margin-right: 0%;
   
@@ -40,6 +49,7 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  
 }
 .bttn2 {
   margin-right: 10%;
@@ -69,37 +79,43 @@
     border: none;
     border-radius: 10px;
     width: 20%;
-bottom: 60rem; position: relative; margin-left: 45%; cursor: pointer; 
+bottom:25rem; position: relative; margin-left: 45%; cursor: pointer; 
 position:relative}
 
     
 
 @media screen and (max-width: 500px) {
   .girl {
-    width: 100%;
+    height: 100vh;
     background-size: cover;
+  
   }
   .header1 {
     font-size: 10px;
-    bottom: 12em;
+    bottom: 70em;
     left: 5%;
+  
   }
-  .imggirl {
-    height: 50%;
+  .imggirl { height: 100vh;
     background-position: center;
     background-size: cover;
+    position: relative;
+    width: 20em;
+  
   }
+  .h1{bottom:12em; position:absolute; }
+  .p1{position: relative; bottom: 19em;}
   .navbar {
-    bottom: 8em;
-    margin-right: 0em;
-    margin-left: 0%;
+    top: 37em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     float: left;
-    position: relative;
+    position:absolute;
     left: 15%;
+    width: 18em;
+    height: 10vh;
   }
-  .p1{ font-size: 15px; }
+  .p1{ font-size: 19px; }
   .bttn1{font-size: 10px;}
   .bttn2{font-size: 10px;}
   .bttn3{font-size: 10px;}
