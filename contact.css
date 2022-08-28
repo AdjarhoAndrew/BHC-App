@@ -7,10 +7,10 @@
 }
 
 .container-form {
-  background-color: rgb(255, 255, 255);
-  width: 50em;
+  background-color: rgb(0, 0, 0);
+  width: 70%;
   height: 70vh;
-  margin-left: 20em;
+  margin-left: 14em;
   margin-top: 15em;
   border-radius: 20px;
 }
@@ -18,23 +18,13 @@
   text-align: center;
   padding-top: 2em;
   color: green;
-  
 }
 
 .formtag {
-  width: 10em;
-  margin-left: 27em;
+  width: 10%;
+  margin-left: 23em;
   bottom: 27em;
   position: relative;
-}
-.form1 {
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  width: 50em;
-  margin-bottom: 2em;
-  border-color: green;
-  border-radius: 10px;
-  border-style: solid;
 }
 
 .form1 {
@@ -81,9 +71,95 @@
   margin-left: 22em;
 }
 
-.container2{ display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;
- position: relative; bottom:80em;
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  position: relative;
+  bottom: 80em;
+  gap: 2em;
+  width: 50em;
+  margin-left: 5em;
+  
 }
 
-.card{height: 15em; background-color: white;
-width: 15em; margin-left: 3em;}
+.card {
+  height: 15em;
+  background-color: white;
+  width: 25em;
+  
+  margin: 0em;
+
+  
+ 
+}
+.text1{text-align: center; margin-top: 4em;}
+.text1>p{color: green;}
+
+@media screen and (max-width:600px){
+  .container2{display: block; width: 100%; margin-left: 2em; margin-top: 10em;}
+  .card {width: 100%;}
+  .text1>h1{margin-bottom: 1em; padding-top: 2em;}
+.container-form{ display: block; margin-left: 2em; top: 45em; position: relative; width: 100%;}
+
+.form1 {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  width: 21em;
+  margin-bottom: 2em;
+  border-color: green;
+  border-radius: 10px;
+  border-style: solid;
+  position: relative;
+  top: 60em;
+right: 23em;
+text-align: center;
+}
+
+.form2 {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  width: 21em;
+  margin-bottom: 2em;
+  border-color: green;
+  border-radius: 10px;
+  border-style: solid;
+  position: relative;
+  top: 60em;
+right: 23em;
+text-align: center;
+}
+
+.form3 {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  width: 23em;
+  margin-bottom: 2em;
+  border-color: green;
+  border-radius: 10px;
+  border-style: solid;
+  height: 20vh;
+  position: relative;
+  top: 60em;
+right: 24em;
+text-align: center;
+}
+
+.form4 {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  width: 5em;
+  margin-bottom: 10em;
+  border-color: green;
+  border-radius: 20px;
+  border-style: solid;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 22em;
+  position: relative;
+  top: 59em;
+right: 37em;
+text-align: center;
+}
+  }
+  
+

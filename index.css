@@ -2,7 +2,7 @@
 align-items: center;
 align-content: center;
 }
-.girl{ height:100vh;}
+.girl{height: 100vh;}
 
 .imggirl {
   width: 100%;
@@ -18,7 +18,7 @@ align-content: center;
 }
 .header1 {
   position: relative;
-  bottom: 0em;
+  bottom: 17em;
   top: 20em;
   margin-left: 10%;
 }
@@ -82,46 +82,52 @@ align-content: center;
 bottom:25rem; position: relative; margin-left: 45%; cursor: pointer; 
 position:relative}
 
+.navbar.a{ text-decoration: none;}
+
     
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 479px) {/*start of phone styles*/
   .girl {
-    height: 100vh;
+    
     background-size: cover;
   
   }
   .header1 {
-    font-size: 10px;
+    font-size: 5px;
     bottom: 70em;
     left: 5%;
+    
   
   }
-  .imggirl { height: 100vh;
+  .imggirl { 
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 20em;
+    width: 200%;
+    right: 11em;
   
   }
-  .h1{bottom:12em; position:absolute; }
-  .p1{position: relative; bottom: 19em;}
+  .h1{bottom:14em; position:absolute; font-size: 38px; color: white;
+ padding-left: 5px; padding-right: 5px; }
+  .p1{position: relative; bottom: 15em; color: rgb(0, 83, 0);
+  background-color: white; padding: 10px; opacity: 0.7;}
   .navbar {
-    top: 37em;
+    top: 45em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     float: left;
     position:absolute;
-    left: 15%;
-    width: 18em;
-    height: 10vh;
+    left: 17%;
+    width: 20em;
+    height: 5vh;
   }
-  .p1{ font-size: 19px; }
+  .p1{ font-size: 28px; }
   .bttn1{font-size: 10px;}
-  .bttn2{font-size: 10px;}
+  .bttn2{font-size: 10px; text-decoration: none;}
   .bttn3{font-size: 10px;}
 
-  .login{ position: relative; bottom:55em; width: 40%;
-margin-left: 15em; font-size: 8px;}
+  .login{ position: relative; bottom:66em; width: 40%;
+margin-left: 15em; font-size: 10px;}
 }
 
 
