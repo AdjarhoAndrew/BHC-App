@@ -1,134 +1,85 @@
-.body{display: flex;
-align-items: center;
-align-content: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+html{
+  font-size: 62.5%;
 }
-.girl{height: 100vh;}
 
-.imggirl {
+body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+}
+body nav .nav-container{
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body nav .nav-container .logo-container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: inherit;
   
 }
+body nav .nav-container .logo-container img{
+  width: 5em;
+  margin: 0 0 0 8%;
+}
 
-.logoimg {
-  width: 10%;
+body header{
+  background-image: url(girl.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+
+}
+body header .header1{
+  width: inherit;
+  height: inherit;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; 
+}
+
+body header .header1 .header1-content .h1{
+font-size: 5em; margin-left: 0.9em;
+color: green;  
+}
+
+body header .header1 .header1-content .p1{
+  font-size: 2em; margin-left: 2.6em;
+}
+
+body header .header1 .header1-content .btn{
   float: right;
-  position: absolute;
-  top: 4%;
-  left: 10%;
-}
-.header1 {
-  position: relative;
-  bottom: 17em;
-  top: 20em;
-  margin-left: 10%;
-}
-.h1 {
-  font-size: 35px;
-  color: rgb(1, 96, 1);
-}
-.p1 {
-  padding-bottom: 10%;
-  margin-bottom: 0px;
-  font-size: 25px;
 }
 
-.navbar {
-  position: relative;
-  bottom: 0em;
-  top:17em;
-  left: 30%;
-  margin-right: 0%;
+body header  .bttn1{
+  color: rgb(255, 255, 255); padding: 1em; border-style: none;
+  border-radius: 2em; margin: 0.1em;
+  margin-top: 5em; background-color: rgb(112, 90, 16); 
+}
   
-}
-.bttn1 {
-  margin-right: 10%;
-  background-color: rgb(0, 78, 13);
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  
-}
-.bttn2 {
-  margin-right: 10%;
-  background-color: rgb(0, 78, 13);
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.bttn3 {
-  margin-right: 10%;
-  background-color: rgb(0, 78, 13);
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.login{margin-right: 5%;
-    background-color: rgb(0, 78, 13);
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    width: 20%;
-bottom:25rem; position: relative; margin-left: 45%; cursor: pointer; 
-position:relative}
 
-.navbar.a{ text-decoration: none;}
-
-    
-
-@media screen and (max-width: 479px) {/*start of phone styles*/
-  .girl {
-    
-    background-size: cover;
-  
-  }
-  .header1 {
-    font-size: 5px;
-    bottom: 70em;
-    left: 5%;
-    
-  
-  }
-  .imggirl { 
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    width: 200%;
-    right: 11em;
-  
-  }
-  .h1{bottom:14em; position:absolute; font-size: 38px; color: white;
- padding-left: 5px; padding-right: 5px; }
-  .p1{position: relative; bottom: 15em; color: rgb(0, 83, 0);
-  background-color: white; padding: 10px; opacity: 0.7;}
-  .navbar {
-    top: 45em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    float: left;
-    position:absolute;
-    left: 17%;
-    width: 20em;
-    height: 5vh;
-  }
-  .p1{ font-size: 28px; }
-  .bttn1{font-size: 10px;}
-  .bttn2{font-size: 10px; text-decoration: none;}
-  .bttn3{font-size: 10px;}
-
-  .login{ position: relative; bottom:66em; width: 40%;
-margin-left: 15em; font-size: 10px;}
-}
-
-
-
+ 
